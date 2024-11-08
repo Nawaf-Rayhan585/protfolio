@@ -3,15 +3,30 @@ import './Hero.css'
 import react from '../../images/react.png'
 import man from '../../images/imafess3.png'
 import '../../App.css'
+import {useTypewriter , Cursor} from 'react-simple-typewriter'
 
 const Hero = () => {
+
+    const [text] = useTypewriter({
+        words: [' Frontend Devoloper' , ' MERN Devoloper' , ' Backend Devoloper'],
+        loop:{},
+        typeSpeed:100,
+        deleteSpeed:60
+    })
+;
 return (
-    <section className='hero-container'>
+    <section className='hero-container' id='home'>
         <div className="hero-content">
-            <h2>I'm Frontend Devoloper</h2>
+            <span className="name">Nawaf Rayhan</span>
+            <h2>
+                I'm
+                <span className='typed-text'>{text}</span>
+                <span className='cursor-text'><Cursor/></span>
+            </h2>
             <p>
-                Passionate Frontend | Backend | MERN Developer..Transforming Ideas into Seemless and Visually Stunning Web Solutions
+                Passionate Frontend | Backend | MERN Developer , Transforming Ideas into Seemless and Visually Stunning Web Solutions
             </p>
+
         </div>
 
         <div className="hero-img">

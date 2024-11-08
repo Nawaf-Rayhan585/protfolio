@@ -1,0 +1,154 @@
+.about-container {
+    position: relative;
+    padding-bottom: 6rem;
+    padding-top: 12rem;
+}
+
+.about-container::after,
+.about-container::before {
+    content: ' ';
+    width: 28rem;
+    height: 28rem;
+    border-radius: 50rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.about-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.about-container::before {
+    background: #9e51b9;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 70px;
+    font-weight: 600;
+}
+
+
+.about__container {
+    display: flex;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.My-Image {
+    width: 400px;
+    height: auto;
+    border-radius: 3rem;
+}
+.about__me-image {
+    border-radius: 2rem;
+}
+
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    border: 2px solid #6852ba;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    background: #6852ba26;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.about__card i{
+    font-size: 1rem;
+}
+
+.btn {
+    background: rgb(96, 96, 213);
+    padding: 0.7rem 2.4rem 0.7rem 2.4rem;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    transition: all ease 0.09s;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid rgb(96, 96, 213);
+}
+
+.btn:active {
+    transform: scale(0.97);
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+p {
+    color: #c9c9c9;
+}
+
+/* ========================== RESPONSIVE DESIGN ================================= */
+
+@media screen and (max-width: 1090px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .My-Image {
+        display: none;
+    }
+
+    .about-content p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about__card {
+        font-size: 0.8rem;
+        padding: 1.5rem;
+    }
+
+    .about-content p{
+        margin: 1rem 0 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about__card {
+        font-size: 0.8rem;
+        padding: 1.3rem;
+    }
+
+    .about-content p{
+        margin: 1rem 0 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+

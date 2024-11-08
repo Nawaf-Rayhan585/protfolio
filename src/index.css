@@ -10,4 +10,12 @@ body{
   color: #fff;
   background-color: #060417;
   cursor: url(cursor.svg) , auto;
+  --scrollbar-color-thumb: hotpink;
+  --scrollbar-color-track: blue;
+  --scrollbar-width: thin;
+  --scrollbar-width-legacy: 10px;
+  background-image: url('./images/Graph.png'); /* Set your background image */
+  background-size: cover; /* Optional: cover the entire element */
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the image */
 }

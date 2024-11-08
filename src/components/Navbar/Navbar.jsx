@@ -4,7 +4,6 @@ import logo from '../../images/logo.png'
 import { FaBars } from "react-icons/fa6";
 import { RiCloseLargeFill } from "react-icons/ri";
 import MobileNav from './MobileNav/MobileNav';
-import Projects from'../Projects/Projects'
 
 const Navbar = () => {
 
@@ -24,18 +23,20 @@ const Navbar = () => {
           <img className='logo' src={logo} alt="" width='200px'/>
           <ul>
             <li>
-              <a className='menu-item' href="">Home</a>
+              <a className='menu-item' href="#home">Home</a>
             </li>
             <li>
-              <a className='menu-item' href="">Skills</a>
+              <a className='menu-item' href="#about">About</a>
             </li>
             <li>
-              <a className='menu-item' href={Projects}>Projects</a>
+              <a className='menu-item' href="#skills">Skills</a>
             </li>
             <li>
-              <a className='menu-item' href="">Contact Me</a>
+              <a className='menu-item' href='#projects'>Projects</a>
             </li>
-
+            <li>
+              <a className='menu-item-last' href="#contact">Contact Me</a>
+            </li>
             <button className='contact-btn' onClick={() => {}}>
               Download CV
             </button>

@@ -29,13 +29,30 @@
 
 .hero-content {
     flex: 1;
+    margin-top: 70px;
+}
+
+.name {
+    background: #6852ba;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.typed-text {
+    color: #d993e0d2;
+}
+
+.cursor-text {
+    color: #cc00ff;
 }
 
 .hero-content h2 {
-    font-size: 3.8rem;
+    font-size: 2.7rem;
     font-weight: 600;
     line-height: 5rem;
     margin-bottom: 1rem;
+    margin-top: 20px;
 }
 
 .hero-content p {
@@ -44,7 +61,6 @@
     font-weight: 400;
     line-height: 2rem;
 }
-
 .hero-img {
     flex: 1;
     display: flex;
@@ -61,7 +77,7 @@
 }
 
 .hero-img > div > img {
-    width: 25rem;
+    width: 24rem;
     transition: all 0.3s ease;
 }
 
@@ -215,6 +231,14 @@
 
     .tech-icon img {
         width: 2rem;
+    }
+
+    
+    .name {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 200px;
     }
 }
 

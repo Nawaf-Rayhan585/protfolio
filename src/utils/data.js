@@ -36,38 +36,3 @@ export const SKILLS = [
         ],
     },
 ]
-
-export const PROJECTS = [
-    {
-        title:'Ecommerce Wensite (MERN)',
-        image:'https://placehold.jp/40/e0e0e0/5e5e5e/500x600.png?text=Some%20Project%201%20Goes%20Here',
-        description:'An Ecommerce Site With Backend And Frontend Made With MERN (MongoDB , ExpressJS , NodeJS , ReactJS). Database is used in this project',
-        link:'https://github.com/Nawaf-Rayhan585',
-    },
-    {
-        title:'Inventory Project',
-        icon:'https://placehold.jp/40/e0e0e0/5e5e5e/500x600.png?text=Some%20Project%202%20Goes%20Here',
-        description:'An Ecommerce Site With Backend And Frontend Made With MERN (MongoDB , ExpressJS , NodeJS , ReactJS). Database is used in this project',
-        link:'https://github.com/Nawaf-Rayhan585',
-    },
-
-    {
-        title:'Project 3',
-        icon:'https://placehold.jp/40/e0e0e0/5e5e5e/500x600.png?text=Some%20Project%203%20Goes%20Here',
-        description:'An Ecommerce Site With Backend And Frontend Made With MERN (MongoDB , ExpressJS , NodeJS , ReactJS). Database is used in this project',
-        link:'https://github.com/Nawaf-Rayhan585',
-    },
-    {
-        title:'project 4',
-        icon:'https://placehold.jp/40/e0e0e0/5e5e5e/500x600.png?text=Some%20Project%204%20Goes%20Here',
-        description:'An Ecommerce Site With Backend And Frontend Made With MERN (MongoDB , ExpressJS , NodeJS , ReactJS). Database is used in this project',
-        link:'https://github.com/Nawaf-Rayhan585',
-    },
-    {
-        title:'',
-        icon:'https://placehold.jp/40/e0e0e0/5e5e5e/500x600.png?text=Some%20Project%205%20Goes%20Here',
-        description:'An Ecommerce Site With Backend And Frontend Made With MERN (MongoDB , ExpressJS , NodeJS , ReactJS). Database is used in this project',
-        link:'https://github.com/Nawaf-Rayhan585',
-    },
-]
-

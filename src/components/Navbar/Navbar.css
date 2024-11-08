@@ -1,6 +1,6 @@
 .nav-wrapper {
     background:  rgba(0, 0, 0, 0.3);
-    padding: 0.5rem 0;
+    padding: 0.010rem 0;
     position: sticky;
     top: 0;
     z-index: 30;
@@ -31,8 +31,16 @@
 .nav-content li {
     margin: 0 1.5rem;
 }
-
 .menu-item {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item-last {
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
@@ -74,6 +82,7 @@
     border-radius: 0.2rem;
     cursor: pointer;
     transition: all 0.1s ease;
+    margin-left: 20px;
 }
 
 .contact-btn:hover {

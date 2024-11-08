@@ -11,25 +11,29 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
       >
         <div className="mobile-menu-container">
           <img src={logo} alt="logo" className="logo" />
-
           <ul>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="menu-item" href="#skills">
                 Skills
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#projects">
                 Projects
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#contact">
                 Contact Me
               </a>
             </li>
